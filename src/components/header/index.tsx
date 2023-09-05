@@ -9,11 +9,11 @@ export default function Header () {
     <header>
       <div className="leftHeader">
         <Image src={logo} width={70} height={70} alt="Logo"/>
-        <p>BURGUERIA</p>
+        <h1 className="logoText">BURGUERIA</h1>
       </div>
-      <div className="rigthHeader">
-        <FaHeart/>
-        <FaShoppingCart/>
+      <div className="rightHeader">
+        <FaHeart className="icons"/>
+        <FaShoppingCart className="icons"/>
       </div>
     </header>
   )
