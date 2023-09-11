@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from '../../../public/logo.webp'
+import logo from '@/assets/logo.webp'
 import { FaHeart } from 'react-icons/fa';
 import { FaShoppingCart } from 'react-icons/fa';
 import './index.scss'

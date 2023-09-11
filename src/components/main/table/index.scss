@@ -1,0 +1,61 @@
+.table {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  & * p {
+    font-family: 'Inter';
+  }
+  
+  .title {
+    background-color: #004083;
+    color: #ffffff;
+    padding: 0.4em;
+    font-family: "Inter";
+    font-size: 18px;
+    height: 2.4em;
+    display: flex;
+    align-items: center;
+    border-radius: 0.1em;
+    width: 95%;
+  }
+
+  .subSectionTable {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    border-bottom: 2px solid #e5e7eb;
+    cursor: pointer;
+    padding: 0.75em;
+
+    &:hover{
+      transition-duration: .15s;
+      background-color: rgba(59,130,246,.5);
+    }
+
+    .leftSubSectionTable {
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.2em;
+
+      .productName, .productValue {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .productDescription {
+        font-size: 12px;
+      }
+    }
+
+    .rightSubSectionTable {
+      display: flex;
+      align-items: center;
+      font-size: 1.319em;
+      &:hover{
+        color: red;
+        
+      }
+    }
+  }
+}

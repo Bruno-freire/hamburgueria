@@ -1,0 +1,22 @@
+.foodCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1.2px solid transparent;
+  border-radius: 0.4rem;
+  row-gap: 0.3em;
+  width: 10em;
+  height: 9.5em;
+  
+  &:hover{
+    border: 1.2px solid black;
+    cursor: pointer;
+    border-color: #004083;
+  }
+  
+  .foodText{
+    color: #004083;
+    font-family: 'Inter';
+  }
+}
